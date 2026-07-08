@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <meta charset=UTF-8>
+    <title>伝言板</title>
+    <script>
+      function a() {
+        if (z.value === "") {
+          alert = "入力してください";
+        } else {
+          y.innerText = z.value;
+        }
+      }
+
+      function b() {
+        y.innerText = "伝言はまだありません";
+      }
+    </script>
+  </head>
+
+  <body>
+    <h1>伝言板</h1>
+    <p id="y">伝言はまだありません</p>
+    <input id="z"><button onclick="a();">セット</button>
+    <p><button onclick="b();">リセット</button></p>
+  </body>
+</html>
